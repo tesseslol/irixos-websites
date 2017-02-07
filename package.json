@@ -1,0 +1,19 @@
+{
+  "name": "irixos_websites",
+  "version": "1.0.0",
+  "description": "websites of irixOs",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesseslol/irixos-websites.git"
+  },
+  "author": "JoinLab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tesseslol/irixos-websites/issues"
+  },
+  "homepage": "https://github.com/tesseslol/irixos-websites#readme"
+}
