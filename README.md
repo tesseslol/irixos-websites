@@ -8,3 +8,4 @@ Sito web
 ========
 ### Installazione ###
 Per ora il progetto non contiene requisiti.
+Template in aggiornamento.
