@@ -1,1 +1,11 @@
-
+.box {
+  width: auto;
+  height: auto;
+}
+.box__image {
+  border: none;
+}
+.box__image--lg {
+  width: 100%;
+  height: 800px;
+}
