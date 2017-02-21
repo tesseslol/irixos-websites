@@ -1,0 +1,9 @@
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #e00;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  border-color: transparent;
+}
