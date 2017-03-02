@@ -9,7 +9,8 @@
   <title>IrixOS Websites</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
 
   <!-- tuo css -->
   <link rel="stylesheet" href="css/main.css" />
@@ -24,11 +25,12 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-transparent navbar-fixed-top">
+    <nav class="navbar navbar-transparent">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
@@ -53,17 +55,29 @@
     </nav>
 
     <div class="box">
-      <img src="" class="box__image box__image--lg" alt="">
+      <div src="" class="box__image box__image--lg" alt=""></div>
     </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="95%" y2="0%">
+          <stop offset="0%" style="stop-color:#29323c;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#485563;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <polygon fill="url(#grad1)" points="0,100 100,0 100,100" />
+    </svg>
+
   </header>
   <main>
-
+    <section class="section section--green"></section>
   </main>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <!-- Boostrap plugin -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
   <!-- tuo javascript -->
   <script src="js/main.js"></script>
 </body>
