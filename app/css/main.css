@@ -1,11 +1,47 @@
-.box {
-  width: auto;
-  height: auto;
+header {
+  border: none;
+  background-image: white;
 }
+
+.box {
+  width: 100%;
+  height: 640px;
+  top: -83px;
+  position: relative;
+  z-index: 0;
+  background-color: white;
+  border: 0px;
+}
+
 .box__image {
   border: none;
-}
-.box__image--lg {
+  background: url("../img/monitor-313011_1920.jpg") center;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 800px;
+  height: 100%;
+}
+
+.block {
+  height: 100px;
+  width: 100%;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 8vw;
+  fill: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  bottom: 39px;
+  /* set height to pixels if you want angle to change with screen width */
+}
+
+.section {
+  height: 320px;
+  width: 100%;
+}
+
+.section--green {
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
