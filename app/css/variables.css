@@ -1,0 +1,15 @@
+/* colori */
+
+:root {
+  --color: black;
+}
+
+
+/* font */
+
+:root {
+  /* per il body */
+  --main-font-serif: "../font/Fanwood-serif.otf";
+  /* per i titoli */
+  --main-font-sans-serif: "SIMPLIFICA-sans.ttf";
+}
