@@ -1,3 +1,5 @@
-var ciccio = 'ciao';
-console.log('ciccio: ', ciccio);
-console.log(1 + 2);
+window.addEventListener('load', function () {
+  var element = document.getElementById('box__image');
+  element.style.backgroundImage = 'url("img/test.gif")';
+
+});
