@@ -1,8 +1,3 @@
-header {
-  border: none;
-  background-image: white;
-}
-
 .box {
   width: 100%;
   height: 640px;
@@ -27,21 +22,31 @@ header {
   width: 100%;
 }
 
-svg {
+header::after {
+  content: "";
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 8vw;
-  fill: linear-gradient(60deg, #29323c 0%, #485563 100%);
-  bottom: 39px;
-  /* set height to pixels if you want angle to change with screen width */
+  height: 150px;
+  background: url("../img/header.svg");
 }
 
 .section {
   height: 320px;
   width: 100%;
+  bottom: 0px;
+  position: relative;
 }
 
-.section--green {
+.section--black {
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.section--black .section__title {
+  color: white;
+}
+
+.section__title {
+  text-align: center;
+  margin-top: 24px;
 }

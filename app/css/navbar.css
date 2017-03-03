@@ -1,34 +1,35 @@
-/* @TODO change color in white when we have the images */
+  /* @TODO change color in white when we have the images */
 
-.nav>li>a:focus,
-.nav>li>a:hover {
-  text-decoration: none;
-  background-color: transparent;
-  border: rgb(0, 0, 0) 1px solid;
-  border-radius: 20px;
-}
+  .nav>li>a:focus,
+  .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    border-bottom: 1px rgb(0, 0, 0) solid;
+  }
 
-.nav>li>a,
-.nav>li>a {
-  padding: 8px 12px;
-  color: rgb(0, 0, 0);
-  /*margin: 24px 4px 0px 0px;*/
-}
+  .nav>li>a,
+  .nav>li>a {
+    padding: 8px 8px;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    margin-left: 4px;
+  }
 
-.navbar {
-  border: none;
-  z-index: 1;
-}
+  .navbar {
+    border: none;
+    z-index: 1;
+  }
 
-.navbar-transparent {
-  background-color: transparent;
-  border: none;
-}
+  .navbar-transparent {
+    background-color: transparent;
+    border: none;
+  }
 
-.navbar-brand {
-  color: rgb(0, 0, 0);
-}
+  .navbar-brand {
+    color: rgb(0, 0, 0);
+  }
 
-.navbar-brand:hover {
-  color: rgb(0, 0, 0);
-}
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    color: rgb(0, 0, 0);
+  }
