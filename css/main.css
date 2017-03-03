@@ -1,6 +1,68 @@
+@font-face {
+  font-family: mioFontSans;
+  src: url(../font/SIMPLIFICA-sans.ttf);
+}
+
+p,
+label {
+  font-family: "../font/Fanwood-serif.otf";
+}
+
+a {
+  font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+body {
+  font-family: mioFontSans;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
 .box {
   width: 100%;
-  height: 64rem;
+  height: 40rem;
   top: -83px;
   position: relative;
   z-index: 0;
@@ -10,7 +72,7 @@
 
 .box__image {
   border: none;
-  background: url("../img/monitor-313011_1920.jpg") center;
+  background: url("../img/monitor-313011_1920.jpg") left;
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -19,13 +81,34 @@
 
 .box__image-screen {
   position: relative;
-  left: 34.67%;
+  left: 13.9%;
   height: 45.83%;
   width: 30.1%;
   top: 18.50%;
   background: url("../img/test.gif") center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: inline-block;
+}
+
+.content {
+  left: 30%;
+  position: relative;
+  display: inline-block;
+}
+
+.content__title {
+  text-align: center;
+}
+
+.content__text {
+  text-align: center;
+}
+
+.content__button {
+  position: relative;
+  left: 28%;
+  font-family: "../font/Fanwood-serif.otf";
 }
 
 .block {
